@@ -8,6 +8,10 @@
 
     --text-primary-color: #222222;
     --text-secondary-color: #ffffff;
+
+    --titles-weight: 700;
+    --text-weight: 400;
+    --menu-text-weight: 500;
 }
 
 /*CSS RESET*/
@@ -18,5 +22,8 @@ body, img, h1, p, legend, label, input, select, textarea, button {
 }
 
 h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: var(--titles-weight);
     color: var(--text-primary-color);
 }
