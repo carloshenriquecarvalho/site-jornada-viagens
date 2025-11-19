@@ -16,12 +16,17 @@ header {
   margin: 37px 0 37px 48px;
 }
 
-nav {
-  display: none;
-}
 
-.navegacao {
+.navigation-menu {
   height: 135px;
   display: flex;
   align-items: center;
+}
+
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+}
+
+nav {
+  display: none;
 }
